@@ -1,0 +1,20 @@
+{
+  "label2id": {
+    "Bahagia": 0,
+    "Lelah": 1,
+    "Marah": 2,
+    "Netral": 3,
+    "Sedih": 4,
+    "Stres": 5,
+    "Tenang": 6
+  },
+  "id2label": {
+    "0": "Bahagia",
+    "1": "Lelah",
+    "2": "Marah",
+    "3": "Netral",
+    "4": "Sedih",
+    "5": "Stres",
+    "6": "Tenang"
+  }
+}

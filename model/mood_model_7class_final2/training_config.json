@@ -1,0 +1,13 @@
+{
+  "model_name": "indobenchmark/indobert-base-p1",
+  "num_labels": 7,
+  "max_length": 128,
+  "train_size": 2625,
+  "eval_size": 563,
+  "test_size": 563,
+  "epochs": 8,
+  "batch_size": 4,
+  "learning_rate": 3e-05,
+  "test_accuracy": 0.9982238010657194,
+  "test_f1_weighted": 0.9982232515204714
+}
