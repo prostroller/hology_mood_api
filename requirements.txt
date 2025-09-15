@@ -1,5 +1,4 @@
---index-url https://download.pytorch.org/whl/cpu
 fastapi==0.115.0
 uvicorn==0.30.6
-torch==2.4.1+cpu
+https://download.pytorch.org/whl/cpu/torch-2.4.1%2Bcpu-cp311-cp311-linux_x86_64.whl
 transformers==4.44.2
