@@ -46,13 +46,13 @@ def load_fallback_model():
         
         # Map the fallback model labels to Indonesian
         fallback_mapping = {
-            0: 'Marah',      # anger
-            1: 'Netral',     # disgust -> neutral
-            2: 'Netral',     # fear -> neutral  
-            3: 'Bahagia',    # joy
-            4: 'Netral',     # neutral
-            5: 'Sedih',      # sadness
-            6: 'Netral'      # surprise -> neutral
+            0: 'Bahagia',      # anger
+            1: 'Lelah',     # disgust -> neutral
+            2: 'Marah',     # fear -> neutral  
+            3: 'Netral',    # joy
+            4: 'Sedih',     # neutral
+            5: 'Stress',      # sadness
+            6: 'Tenang'      # surprise -> neutral
         }
         
         return tokenizer, model, device, fallback_mapping, True
